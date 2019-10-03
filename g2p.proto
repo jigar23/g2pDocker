@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message Word {
+    string word = 1;
+}
+
+message Prons {
+    repeated string pron = 1;
+}
+
+service g2p {
+    rpc g2p(Word) returns (Prons) {}
+}
