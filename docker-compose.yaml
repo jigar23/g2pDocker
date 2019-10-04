@@ -10,9 +10,8 @@ services:
       - seccomp:unconfined
     container_name: debug
     ports:
-      - "7776:22"
-      - "7777:7777"
+      - "7778:22"
     volumes:
-      - .:/home/debugger/code
-    working_dir: /home/debugger/code
+      - .:/home/debugger/g2pDocker
+    working_dir: /home/debugger/g2pDocker
     hostname: debug
