@@ -5,10 +5,10 @@ services:
     build:
       context: ./
       dockerfile: ./Dockerfile
-    image: pycharm_dev
+    image: g2p_dev
     security_opt:
       - seccomp:unconfined
-    container_name: debug
+    container_name: gtop
     ports:
       - "7778:22"
     volumes:
