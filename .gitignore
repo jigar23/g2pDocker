@@ -1,3 +1,6 @@
- __pycache__/
- *.pyc
-
+__pycache__/
+*.pyc
+.idea/
+mapping/
+g2p_pb2.py
+g2p_pb2_grpc.py
